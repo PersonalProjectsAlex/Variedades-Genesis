@@ -1,0 +1,116 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - Cosmos (15.0.0)
+  - DropDown (2.3.2)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FacebookLogin (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKLoginKit (~> 4.27)
+  - FBSDKCoreKit (4.32.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.32.0):
+    - FBSDKCoreKit
+  - Firebase (4.13.0):
+    - Firebase/Core (= 4.13.0)
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - FirebaseAnalytics (4.2.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.20):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - Floaty (3.0.1)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/NSData+zlib (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - HexColors (6.0.0)
+  - ImageSlideshow (1.5.3):
+    - ImageSlideshow/Core (= 1.5.3)
+  - ImageSlideshow/Core (1.5.3)
+  - ImageSlideshow/Kingfisher (1.5.3):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - IQKeyboardManagerSwift (5.0.8)
+  - Kingfisher (4.7.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SearchTextField (1.2.0)
+  - SideMenu (3.1.5)
+  - SwiftyBeaver (1.5.2)
+  - TBEmptyDataSet (2.7)
+  - XLPagerTabStrip (8.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CodableAlamofire
+  - Cosmos
+  - DropDown
+  - FacebookCore
+  - FacebookLogin
+  - Firebase
+  - Floaty (~> 3.0.0)
+  - HexColors
+  - ImageSlideshow (~> 1.5)
+  - ImageSlideshow/Kingfisher
+  - IQKeyboardManagerSwift (~> 5.0)
+  - SDWebImage (~> 4.0)
+  - SearchTextField
+  - SideMenu
+  - SwiftyBeaver
+  - TBEmptyDataSet
+  - XLPagerTabStrip (~> 8.0)
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FacebookLogin: 0af839ea858faef99550d16596b87b4a8e8906e6
+  FBSDKCoreKit: 55d7f2ac45d9c4b9b6119f4e43900fe84b9b7b1b
+  FBSDKLoginKit: 32ac05c2a59952c363c2e85aafa8f73ba93bcbad
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  Floaty: bb7a353deee9ddcc14c584ca9c538efdc19669f2
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  ImageSlideshow: 24a1184909f589379ba2527ebcc77996881bb1f2
+  IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SearchTextField: a5bb7e4c33affadb115afdbe8100d84ef10a8024
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  SwiftyBeaver: 85daaaa2b3ae6e31b7b55c99430e8b91dac088af
+  TBEmptyDataSet: 1da712a3e0c324179253960165202d30009cba26
+  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
+
+PODFILE CHECKSUM: c0c96a23d4aed98a96fe0ed4db19f0879a86202d
+
+COCOAPODS: 1.4.0

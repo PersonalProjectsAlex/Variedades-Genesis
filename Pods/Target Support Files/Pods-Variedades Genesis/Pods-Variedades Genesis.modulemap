@@ -1,0 +1,6 @@
+framework module Pods_Variedades_Genesis {
+  umbrella header "Pods-Variedades Genesis-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cAV-Rn-vlc">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xlM-vR-EgR">
+            <objects>
+                <viewController id="cAV-Rn-vlc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nR4-4i-yhV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="LhS-7s-y64">
+                                <rect key="frame" x="97" y="72" width="127" height="130"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vak-1F-6zf">
+                                <rect key="frame" x="16" y="210" width="288" height="250"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wkK-fK-ins">
+                                        <rect key="frame" x="8" y="21.5" width="272" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locutor en cabina:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HU0-Uy-Tld">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hno. Alex Campos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFw-Em-8Gd">
+                                                <rect key="frame" x="136" y="0.0" width="136" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Envía tu mensaje en cabina:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHS-CM-IhB">
+                                        <rect key="frame" x="8" y="82" width="280" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Tt9-5w-Dcm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3S9-gg-4wK">
+                                        <rect key="frame" x="8" y="120" width="272" height="30"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Escribe tu mensaje" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VPJ-iL-PmC">
+                                                <rect key="frame" x="0.0" y="0.0" width="157" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="157" id="liv-a8-G1I"/>
+                                                    <constraint firstAttribute="height" constant="30" id="vnE-ga-ZaG"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5G-Fs-lNG">
+                                                <rect key="frame" x="157" y="0.0" width="115" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="ajP-WA-c35"/>
+                                                    <constraint firstAttribute="width" constant="115" id="dsc-eD-zGM"/>
+                                                </constraints>
+                                                <state key="normal" title="Enviar"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9d-dl-CAD">
+                                        <rect key="frame" x="206" y="212" width="82" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="82" id="7Ri-Wt-y3F"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wHS-CM-IhB" firstAttribute="trailing" secondItem="Q9d-dl-CAD" secondAttribute="trailing" id="1XK-p7-fng"/>
+                                    <constraint firstAttribute="trailing" secondItem="wkK-fK-ins" secondAttribute="trailing" constant="8" id="CAs-gv-rz0"/>
+                                    <constraint firstItem="wkK-fK-ins" firstAttribute="leading" secondItem="vak-1F-6zf" secondAttribute="leading" constant="8" id="Nhq-3l-Icb"/>
+                                    <constraint firstItem="wHS-CM-IhB" firstAttribute="leading" secondItem="3S9-gg-4wK" secondAttribute="leading" id="Q6i-pM-Fyr"/>
+                                    <constraint firstItem="Q9d-dl-CAD" firstAttribute="bottom" secondItem="vak-1F-6zf" secondAttribute="bottomMargin" id="XhL-aR-4eS"/>
+                                    <constraint firstItem="3S9-gg-4wK" firstAttribute="top" secondItem="wHS-CM-IhB" secondAttribute="bottom" constant="8" symbolic="YES" id="hCe-9i-efJ"/>
+                                    <constraint firstItem="Q9d-dl-CAD" firstAttribute="top" secondItem="3S9-gg-4wK" secondAttribute="bottom" constant="62" id="iKR-J1-TYU"/>
+                                    <constraint firstItem="wkK-fK-ins" firstAttribute="leading" secondItem="wHS-CM-IhB" secondAttribute="leading" id="qOu-Pc-q8C"/>
+                                    <constraint firstItem="wHS-CM-IhB" firstAttribute="top" secondItem="wkK-fK-ins" secondAttribute="bottom" constant="40" id="qVV-z6-UCr"/>
+                                    <constraint firstAttribute="trailing" secondItem="wHS-CM-IhB" secondAttribute="trailing" id="umU-Ty-FrA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vak-1F-6zf" firstAttribute="top" secondItem="LhS-7s-y64" secondAttribute="bottom" constant="8" symbolic="YES" id="8QU-2e-lV7"/>
+                            <constraint firstItem="LhS-7s-y64" firstAttribute="top" secondItem="nxr-T7-bv3" secondAttribute="top" constant="52" id="9dN-aZ-PFc"/>
+                            <constraint firstItem="vak-1F-6zf" firstAttribute="trailing" secondItem="nR4-4i-yhV" secondAttribute="trailingMargin" id="AAk-cU-iFW"/>
+                            <constraint firstItem="vak-1F-6zf" firstAttribute="centerX" secondItem="LhS-7s-y64" secondAttribute="centerX" id="FrP-50-2MI"/>
+                            <constraint firstItem="vak-1F-6zf" firstAttribute="leading" secondItem="nR4-4i-yhV" secondAttribute="leadingMargin" id="iVS-O0-WCy"/>
+                            <constraint firstItem="vak-1F-6zf" firstAttribute="top" secondItem="nR4-4i-yhV" secondAttribute="top" constant="210" id="jHS-OJ-Tej"/>
+                            <constraint firstItem="LhS-7s-y64" firstAttribute="leading" secondItem="nxr-T7-bv3" secondAttribute="leading" constant="97" id="kjf-pN-eNk"/>
+                            <constraint firstAttribute="bottom" secondItem="vak-1F-6zf" secondAttribute="bottom" constant="20" symbolic="YES" id="nci-wj-HxQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nxr-T7-bv3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5gW-Yk-cY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="358.125" y="-260"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Profile" width="200" height="200"/>
+    </resources>
+</document>

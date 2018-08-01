@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8359A9DA209E8F9C0025AEB6 /* ProductsController+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8359A9D9209E8F9C0025AEB6 /* ProductsController+CollectionViewDelegate.swift */; };
+		8359A9DC209E925E0025AEB6 /* DesignableUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8359A9DB209E925E0025AEB6 /* DesignableUiView.swift */; };
+		8396BDE120A21F7E00A2D4BA /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8396BDE020A21F7E00A2D4BA /* User.storyboard */; };
+		83A85BE7209E010500FCB966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A85BE6209E010500FCB966 /* AppDelegate.swift */; };
+		83A85BEE209E010500FCB966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A85BED209E010500FCB966 /* Assets.xcassets */; };
+		83A85BF1209E010500FCB966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A85BEF209E010500FCB966 /* LaunchScreen.storyboard */; };
+		83A85BFC209E010500FCB966 /* Variedades_GenesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A85BFB209E010500FCB966 /* Variedades_GenesisTests.swift */; };
+		83A85C07209E010500FCB966 /* Variedades_GenesisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A85C06209E010500FCB966 /* Variedades_GenesisUITests.swift */; };
+		83AD9E30209E053D00D7B68D /* SlideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AD9E2F209E053D00D7B68D /* SlideMenu.storyboard */; };
+		83AD9E32209E0AED00D7B68D /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD9E31209E0AED00D7B68D /* MainMenuController.swift */; };
+		83AD9E34209E0E6A00D7B68D /* SideMenuTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD9E33209E0E6A00D7B68D /* SideMenuTableController.swift */; };
+		83C721ED209E564700EFBC26 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C721EC209E564700EFBC26 /* Colors.swift */; };
+		83C721EF209E568700EFBC26 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C721EE209E568700EFBC26 /* Core.swift */; };
+		83C721F1209E585700EFBC26 /* PagerStripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C721F0209E585700EFBC26 /* PagerStripController.swift */; };
+		83C721F3209E5CC800EFBC26 /* ProductsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C721F2209E5CC800EFBC26 /* ProductsController.swift */; };
+		83C721F6209E887100EFBC26 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C721F4209E887100EFBC26 /* ProductsCell.swift */; };
+		83C721F7209E887100EFBC26 /* ProductsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C721F5209E887100EFBC26 /* ProductsCell.xib */; };
+		83C74E68209E2F7A000E5B93 /* TabbarOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C74E67209E2F7A000E5B93 /* TabbarOptions.storyboard */; };
+		83DCCA2420A209E000A77997 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCCA2320A209E000A77997 /* Constants.swift */; };
+		83DCCA2B20A20E3000A77997 /* ProductsChild2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCCA2A20A20E3000A77997 /* ProductsChild2Controller.swift */; };
+		83DCCA2D20A20EA700A77997 /* ProductsChild2Controller+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCCA2C20A20EA700A77997 /* ProductsChild2Controller+CollectionViewDelegate.swift */; };
+		83DCCA3020A2154400A77997 /* Radio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DCCA2F20A2154400A77997 /* Radio.storyboard */; };
+		AD09B4DCDB6ACB0A262181FC /* Pods_Variedades_Genesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AA51D899EDB9E2E78D2E8C /* Pods_Variedades_Genesis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A85BF8209E010500FCB966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A85BDB209E010400FCB966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A85BE2209E010500FCB966;
+			remoteInfo = "Variedades Genesis";
+		};
+		83A85C03209E010500FCB966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A85BDB209E010400FCB966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A85BE2209E010500FCB966;
+			remoteInfo = "Variedades Genesis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20AA51D899EDB9E2E78D2E8C /* Pods_Variedades_Genesis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Variedades_Genesis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694EFAA406DA683274C440D5 /* Pods-Variedades Genesis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Variedades Genesis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Variedades Genesis/Pods-Variedades Genesis.debug.xcconfig"; sourceTree = "<group>"; };
+		8359A9D9209E8F9C0025AEB6 /* ProductsController+CollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductsController+CollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		8359A9DB209E925E0025AEB6 /* DesignableUiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUiView.swift; sourceTree = "<group>"; };
+		8396BDE020A21F7E00A2D4BA /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		83A85BE3209E010500FCB966 /* Variedades Genesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Variedades Genesis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A85BE6209E010500FCB966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83A85BED209E010500FCB966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A85BF0209E010500FCB966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A85BF2209E010500FCB966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A85BF7209E010500FCB966 /* Variedades GenesisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Variedades GenesisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A85BFB209E010500FCB966 /* Variedades_GenesisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variedades_GenesisTests.swift; sourceTree = "<group>"; };
+		83A85BFD209E010500FCB966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A85C02209E010500FCB966 /* Variedades GenesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Variedades GenesisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A85C06209E010500FCB966 /* Variedades_GenesisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variedades_GenesisUITests.swift; sourceTree = "<group>"; };
+		83A85C08209E010500FCB966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83AD9E2F209E053D00D7B68D /* SlideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlideMenu.storyboard; sourceTree = "<group>"; };
+		83AD9E31209E0AED00D7B68D /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		83AD9E33209E0E6A00D7B68D /* SideMenuTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableController.swift; sourceTree = "<group>"; };
+		83C721EC209E564700EFBC26 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		83C721EE209E568700EFBC26 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		83C721F0209E585700EFBC26 /* PagerStripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerStripController.swift; sourceTree = "<group>"; };
+		83C721F2209E5CC800EFBC26 /* ProductsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsController.swift; sourceTree = "<group>"; };
+		83C721F4209E887100EFBC26 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		83C721F5209E887100EFBC26 /* ProductsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCell.xib; sourceTree = "<group>"; };
+		83C74E67209E2F7A000E5B93 /* TabbarOptions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabbarOptions.storyboard; sourceTree = "<group>"; };
+		83DCCA2320A209E000A77997 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		83DCCA2A20A20E3000A77997 /* ProductsChild2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsChild2Controller.swift; sourceTree = "<group>"; };
+		83DCCA2C20A20EA700A77997 /* ProductsChild2Controller+CollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductsChild2Controller+CollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		83DCCA2F20A2154400A77997 /* Radio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Radio.storyboard; sourceTree = "<group>"; };
+		BCE56F635465EBC936B8A5F9 /* Pods-Variedades Genesis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Variedades Genesis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Variedades Genesis/Pods-Variedades Genesis.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A85BE0209E010500FCB966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD09B4DCDB6ACB0A262181FC /* Pods_Variedades_Genesis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A85BF4209E010500FCB966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A85BFF209E010500FCB966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8396BDDF20A21F5B00A2D4BA /* SignUp_SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				8396BDE020A21F7E00A2D4BA /* User.storyboard */,
+			);
+			path = SignUp_SignIn;
+			sourceTree = "<group>";
+		};
+		83A85BDA209E010400FCB966 = {
+			isa = PBXGroup;
+			children = (
+				83A85BE5209E010500FCB966 /* Variedades Genesis */,
+				83A85BFA209E010500FCB966 /* Variedades GenesisTests */,
+				83A85C05209E010500FCB966 /* Variedades GenesisUITests */,
+				83A85BE4209E010500FCB966 /* Products */,
+				FCED82650FDC1005F206D17F /* Pods */,
+				FAC1B8C7CFBFDDBF5A133E27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83A85BE4209E010500FCB966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A85BE3209E010500FCB966 /* Variedades Genesis.app */,
+				83A85BF7209E010500FCB966 /* Variedades GenesisTests.xctest */,
+				83A85C02209E010500FCB966 /* Variedades GenesisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A85BE5209E010500FCB966 /* Variedades Genesis */ = {
+			isa = PBXGroup;
+			children = (
+				83A85BE6209E010500FCB966 /* AppDelegate.swift */,
+				83A85BED209E010500FCB966 /* Assets.xcassets */,
+				83A85BF2209E010500FCB966 /* Info.plist */,
+				83A85BEF209E010500FCB966 /* LaunchScreen.storyboard */,
+				83C721EE209E568700EFBC26 /* Core.swift */,
+				83C721E7209E55B300EFBC26 /* Controllers */,
+				83C721E8209E55D600EFBC26 /* API */,
+				83C721EA209E55E500EFBC26 /* Components */,
+				83C721E9209E55DF00EFBC26 /* Models */,
+				83C721E6209E53D100EFBC26 /* Helpers */,
+			);
+			path = "Variedades Genesis";
+			sourceTree = "<group>";
+		};
+		83A85BFA209E010500FCB966 /* Variedades GenesisTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A85BFB209E010500FCB966 /* Variedades_GenesisTests.swift */,
+				83A85BFD209E010500FCB966 /* Info.plist */,
+			);
+			path = "Variedades GenesisTests";
+			sourceTree = "<group>";
+		};
+		83A85C05209E010500FCB966 /* Variedades GenesisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83A85C06209E010500FCB966 /* Variedades_GenesisUITests.swift */,
+				83A85C08209E010500FCB966 /* Info.plist */,
+			);
+			path = "Variedades GenesisUITests";
+			sourceTree = "<group>";
+		};
+		83AD9E2E209E04BA00D7B68D /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				83AD9E2F209E053D00D7B68D /* SlideMenu.storyboard */,
+				83AD9E31209E0AED00D7B68D /* MainMenuController.swift */,
+				83AD9E33209E0E6A00D7B68D /* SideMenuTableController.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		83C721E6209E53D100EFBC26 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				83C721EB209E563700EFBC26 /* UI */,
+				83DCCA2320A209E000A77997 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		83C721E7209E55B300EFBC26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8396BDDF20A21F5B00A2D4BA /* SignUp_SignIn */,
+				83AD9E2E209E04BA00D7B68D /* SlideMenu */,
+				83C74E69209E2F7F000E5B93 /* TabBarProducts */,
+				83DCCA2E20A214C900A77997 /* GenesisRadio */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83C721E8209E55D600EFBC26 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		83C721E9209E55DF00EFBC26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83C721EA209E55E500EFBC26 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				83C721F4209E887100EFBC26 /* ProductsCell.swift */,
+				83C721F5209E887100EFBC26 /* ProductsCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		83C721EB209E563700EFBC26 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8359A9DB209E925E0025AEB6 /* DesignableUiView.swift */,
+				83C721EC209E564700EFBC26 /* Colors.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		83C74E69209E2F7F000E5B93 /* TabBarProducts */ = {
+			isa = PBXGroup;
+			children = (
+				83C74E67209E2F7A000E5B93 /* TabbarOptions.storyboard */,
+				83C721F0209E585700EFBC26 /* PagerStripController.swift */,
+				83DCCA2520A20D3400A77997 /* Child1 */,
+				83DCCA2620A20D5000A77997 /* Child2 */,
+				83DCCA2720A20D6300A77997 /* Child3 */,
+				83DCCA2820A20D6F00A77997 /* Child4 */,
+				83DCCA2920A20D7900A77997 /* Child5 */,
+			);
+			path = TabBarProducts;
+			sourceTree = "<group>";
+		};
+		83DCCA2520A20D3400A77997 /* Child1 */ = {
+			isa = PBXGroup;
+			children = (
+				83C721F2209E5CC800EFBC26 /* ProductsController.swift */,
+				8359A9D9209E8F9C0025AEB6 /* ProductsController+CollectionViewDelegate.swift */,
+			);
+			path = Child1;
+			sourceTree = "<group>";
+		};
+		83DCCA2620A20D5000A77997 /* Child2 */ = {
+			isa = PBXGroup;
+			children = (
+				83DCCA2A20A20E3000A77997 /* ProductsChild2Controller.swift */,
+				83DCCA2C20A20EA700A77997 /* ProductsChild2Controller+CollectionViewDelegate.swift */,
+			);
+			path = Child2;
+			sourceTree = "<group>";
+		};
+		83DCCA2720A20D6300A77997 /* Child3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Child3;
+			sourceTree = "<group>";
+		};
+		83DCCA2820A20D6F00A77997 /* Child4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Child4;
+			sourceTree = "<group>";
+		};
+		83DCCA2920A20D7900A77997 /* Child5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Child5;
+			sourceTree = "<group>";
+		};
+		83DCCA2E20A214C900A77997 /* GenesisRadio */ = {
+			isa = PBXGroup;
+			children = (
+				83DCCA2F20A2154400A77997 /* Radio.storyboard */,
+			);
+			path = GenesisRadio;
+			sourceTree = "<group>";
+		};
+		FAC1B8C7CFBFDDBF5A133E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20AA51D899EDB9E2E78D2E8C /* Pods_Variedades_Genesis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCED82650FDC1005F206D17F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694EFAA406DA683274C440D5 /* Pods-Variedades Genesis.debug.xcconfig */,
+				BCE56F635465EBC936B8A5F9 /* Pods-Variedades Genesis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A85BE2209E010500FCB966 /* Variedades Genesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A85C0B209E010500FCB966 /* Build configuration list for PBXNativeTarget "Variedades Genesis" */;
+			buildPhases = (
+				CFBFD3778E2487100AE35888 /* [CP] Check Pods Manifest.lock */,
+				83A85BDF209E010500FCB966 /* Sources */,
+				83A85BE0209E010500FCB966 /* Frameworks */,
+				83A85BE1209E010500FCB966 /* Resources */,
+				6D68708C2562B9CB3F2C166A /* [CP] Embed Pods Frameworks */,
+				6252BF2A01D8D6D6839834AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Variedades Genesis";
+			productName = "Variedades Genesis";
+			productReference = 83A85BE3209E010500FCB966 /* Variedades Genesis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A85BF6209E010500FCB966 /* Variedades GenesisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A85C0E209E010500FCB966 /* Build configuration list for PBXNativeTarget "Variedades GenesisTests" */;
+			buildPhases = (
+				83A85BF3209E010500FCB966 /* Sources */,
+				83A85BF4209E010500FCB966 /* Frameworks */,
+				83A85BF5209E010500FCB966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A85BF9209E010500FCB966 /* PBXTargetDependency */,
+			);
+			name = "Variedades GenesisTests";
+			productName = "Variedades GenesisTests";
+			productReference = 83A85BF7209E010500FCB966 /* Variedades GenesisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83A85C01209E010500FCB966 /* Variedades GenesisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A85C11209E010500FCB966 /* Build configuration list for PBXNativeTarget "Variedades GenesisUITests" */;
+			buildPhases = (
+				83A85BFE209E010500FCB966 /* Sources */,
+				83A85BFF209E010500FCB966 /* Frameworks */,
+				83A85C00209E010500FCB966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A85C04209E010500FCB966 /* PBXTargetDependency */,
+			);
+			name = "Variedades GenesisUITests";
+			productName = "Variedades GenesisUITests";
+			productReference = 83A85C02209E010500FCB966 /* Variedades GenesisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A85BDB209E010400FCB966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Genesis;
+				TargetAttributes = {
+					83A85BE2209E010500FCB966 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					83A85BF6209E010500FCB966 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83A85BE2209E010500FCB966;
+					};
+					83A85C01209E010500FCB966 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83A85BE2209E010500FCB966;
+					};
+				};
+			};
+			buildConfigurationList = 83A85BDE209E010400FCB966 /* Build configuration list for PBXProject "Variedades Genesis" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A85BDA209E010400FCB966;
+			productRefGroup = 83A85BE4209E010500FCB966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A85BE2209E010500FCB966 /* Variedades Genesis */,
+				83A85BF6209E010500FCB966 /* Variedades GenesisTests */,
+				83A85C01209E010500FCB966 /* Variedades GenesisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A85BE1209E010500FCB966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DCCA3020A2154400A77997 /* Radio.storyboard in Resources */,
+				83C721F7209E887100EFBC26 /* ProductsCell.xib in Resources */,
+				83A85BF1209E010500FCB966 /* LaunchScreen.storyboard in Resources */,
+				83AD9E30209E053D00D7B68D /* SlideMenu.storyboard in Resources */,
+				83C74E68209E2F7A000E5B93 /* TabbarOptions.storyboard in Resources */,
+				8396BDE120A21F7E00A2D4BA /* User.storyboard in Resources */,
+				83A85BEE209E010500FCB966 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A85BF5209E010500FCB966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A85C00209E010500FCB966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6252BF2A01D8D6D6839834AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Variedades Genesis/Pods-Variedades Genesis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D68708C2562B9CB3F2C166A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Variedades Genesis/Pods-Variedades Genesis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/TBEmptyDataSet/TBEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Variedades Genesis/Pods-Variedades Genesis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFBFD3778E2487100AE35888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Variedades Genesis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A85BDF209E010500FCB966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C721EF209E568700EFBC26 /* Core.swift in Sources */,
+				8359A9DC209E925E0025AEB6 /* DesignableUiView.swift in Sources */,
+				83C721F6209E887100EFBC26 /* ProductsCell.swift in Sources */,
+				83DCCA2B20A20E3000A77997 /* ProductsChild2Controller.swift in Sources */,
+				83C721F3209E5CC800EFBC26 /* ProductsController.swift in Sources */,
+				83A85BE7209E010500FCB966 /* AppDelegate.swift in Sources */,
+				83C721ED209E564700EFBC26 /* Colors.swift in Sources */,
+				83DCCA2420A209E000A77997 /* Constants.swift in Sources */,
+				83AD9E32209E0AED00D7B68D /* MainMenuController.swift in Sources */,
+				83C721F1209E585700EFBC26 /* PagerStripController.swift in Sources */,
+				83AD9E34209E0E6A00D7B68D /* SideMenuTableController.swift in Sources */,
+				83DCCA2D20A20EA700A77997 /* ProductsChild2Controller+CollectionViewDelegate.swift in Sources */,
+				8359A9DA209E8F9C0025AEB6 /* ProductsController+CollectionViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A85BF3209E010500FCB966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A85BFC209E010500FCB966 /* Variedades_GenesisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A85BFE209E010500FCB966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A85C07209E010500FCB966 /* Variedades_GenesisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A85BF9209E010500FCB966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A85BE2209E010500FCB966 /* Variedades Genesis */;
+			targetProxy = 83A85BF8209E010500FCB966 /* PBXContainerItemProxy */;
+		};
+		83A85C04209E010500FCB966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A85BE2209E010500FCB966 /* Variedades Genesis */;
+			targetProxy = 83A85C03209E010500FCB966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83A85BEF209E010500FCB966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A85BF0209E010500FCB966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A85C09209E010500FCB966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83A85C0A209E010500FCB966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A85C0C209E010500FCB966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694EFAA406DA683274C440D5 /* Pods-Variedades Genesis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LSSWX573;
+				INFOPLIST_FILE = "Variedades Genesis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Variedades-Genesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A85C0D209E010500FCB966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE56F635465EBC936B8A5F9 /* Pods-Variedades Genesis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LSSWX573;
+				INFOPLIST_FILE = "Variedades Genesis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Variedades-Genesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83A85C0F209E010500FCB966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LSSWX573;
+				INFOPLIST_FILE = "Variedades GenesisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Variedades-GenesisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Variedades Genesis.app/Variedades Genesis";
+			};
+			name = Debug;
+		};
+		83A85C10209E010500FCB966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LSSWX573;
+				INFOPLIST_FILE = "Variedades GenesisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Variedades-GenesisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Variedades Genesis.app/Variedades Genesis";
+			};
+			name = Release;
+		};
+		83A85C12209E010500FCB966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LSSWX573;
+				INFOPLIST_FILE = "Variedades GenesisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Variedades-GenesisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Variedades Genesis";
+			};
+			name = Debug;
+		};
+		83A85C13209E010500FCB966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LSSWX573;
+				INFOPLIST_FILE = "Variedades GenesisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Variedades-GenesisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Variedades Genesis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A85BDE209E010400FCB966 /* Build configuration list for PBXProject "Variedades Genesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A85C09209E010500FCB966 /* Debug */,
+				83A85C0A209E010500FCB966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A85C0B209E010500FCB966 /* Build configuration list for PBXNativeTarget "Variedades Genesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A85C0C209E010500FCB966 /* Debug */,
+				83A85C0D209E010500FCB966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A85C0E209E010500FCB966 /* Build configuration list for PBXNativeTarget "Variedades GenesisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A85C0F209E010500FCB966 /* Debug */,
+				83A85C10209E010500FCB966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A85C11209E010500FCB966 /* Build configuration list for PBXNativeTarget "Variedades GenesisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A85C12209E010500FCB966 /* Debug */,
+				83A85C13209E010500FCB966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A85BDB209E010400FCB966 /* Project object */;
+}
